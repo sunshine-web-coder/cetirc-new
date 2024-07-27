@@ -1,5 +1,5 @@
 import React from "react";
-import TermsOfService from "./terms/page";
+import TermsOfService from "./terms-of-service/page";
 
 export default function TermsOfServicePage() {
   return (
