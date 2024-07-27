@@ -62,7 +62,7 @@ export const sideLinks = [
   },
   {
     label: "Privacy Policy",
-    url: "/terms-of-service/terms-of-service",
+    url: "/terms-of-service/privacy-policy",
   },
   {
     label: "Global Data Processing Agreement",
