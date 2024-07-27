@@ -57,16 +57,16 @@ export default function Header() {
           </Link>
           <ul className='ml-auto lg:flex xl:space-x-[25px] lg:space-x-[20px] text-[16px] text-black hidden header-menu'>
             <li>
-              <Link href='/' className='menu-link'>Home</Link>
+              <Link href='/' className='menu-link'>Get started</Link>
             </li>
             <li>
-              <Link href='/' className='menu-link'>Product</Link>
+              <Link href='/product' className='menu-link'>Product</Link>
             </li>
             <li>
-              <Link href='/' className='menu-link'>Company</Link>
+              <Link href='/about' className='menu-link'>About us</Link>
             </li>
             <li>
-              <Link href='/' className='menu-link'>Resources</Link>
+              <Link href='/map' className='menu-link'>Nearby</Link>
             </li>
           </ul>
           <ul className='ml-auto space-x-[30px] lg:flex items-center'>
@@ -106,16 +106,16 @@ export default function Header() {
         </div>
         <ul className='space-y-[15px] text-[16px] mb-[20px] header-menu'>
             <li>
-              <Link href='/' className='menu-link !pl-0'>Home</Link>
+              <Link href='/' className='menu-link !pl-0'>Get started</Link>
             </li>
             <li>
-              <Link href='/' className='menu-link !pl-0'>Product</Link>
+              <Link href='/product' className='menu-link !pl-0'>Product</Link>
             </li>
             <li>
-              <Link href='/' className='menu-link !pl-0'>Company</Link>
+              <Link href='/about' className='menu-link !pl-0'>About us</Link>
             </li>
             <li>
-              <Link href='/' className='menu-link !pl-0'>Resources</Link>
+              <Link href='/map' className='menu-link !pl-0'>Nearby</Link>
             </li>
         </ul>
         <ul className='mt-5'>
