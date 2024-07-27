@@ -1,5 +1,5 @@
 import { Poppins, Inter } from "next/font/google";
-import SideNav from "../components/Privacy-Poliacy/SideNav";
+import SideNav from "../components/TermsOfService/SideNav";
 
 const poppins = Poppins({
   subsets: ["latin"],
