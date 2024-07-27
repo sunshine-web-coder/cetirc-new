@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/legal",
-        destination: "/legal/terms-of-service",
+        destination: "/legal/terms-of-use",
         permanent: true,
       },
     ];

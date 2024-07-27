@@ -1,10 +1,5 @@
-import React from "react";
-import TermsOfService from "./terms-of-service/page";
+import React from 'react';
 
 export default function TermsOfServicePage() {
-  return (
-    <div className="w-full">
-      <TermsOfService />
-    </div>
-  );
+  return <div className="w-full">Legal</div>;
 }
