@@ -50,7 +50,7 @@ export default function SecureId() {
               <p className='md:mb-[30px] mb-[20px]'>
                 Cetirc’s Alice 1 and Alice 2 palm vein ID services provide a unique, more convenient, and secure way to authenticate transactions and activities that require your biometrics online and offline
               </p>
-              <Link href="/" className="primary-btn">See how it works</Link>
+              <Link href="/getstarted" className="primary-btn">See how it works</Link>
             </motion.div>
             <motion.div className='md:order-1' variants={fadeInUp}>
               <Image className="md:block hidden" src={SecureImage} alt="Secure Thumb"/>

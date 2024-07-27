@@ -12,7 +12,7 @@ export default function GetInTouch() {
                     <p className='xl:text-[24px] lg:text-[18px] text-[14px] text-[#5E5E5E] lg:mb-[30px] mb-[15px]'>Ready to experience the future of biometric authentication with Cetirc? Contact us today to learn more about our products and services.</p>
                     <div className="flex items-center xl:gap-8 gap-4 lg:justify-start justify-center">
                         <Link href="/" className="primary-btn">Contact us</Link>
-                        <Link href="/" className="bordered-btn">Get Started</Link>
+                        <Link href="/getstarted" className="bordered-btn">Get Started</Link>
                     </div>
                 </div>
                 <div className='md:py-[55px] py-[30px] md:px-[50px] px-[20px] shadow-[0_30px_60px_rgba(0,0,0,0.08)] md:rounded-[30px] rounded-[15px] bg-white xl:-translate-y-[220px]'>

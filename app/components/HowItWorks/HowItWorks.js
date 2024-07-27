@@ -55,7 +55,7 @@ export default function HowItWorks() {
                       This is all you need to get started
                     </motion.p>
                     <motion.div className="flex items-center xl:gap-8 gap-4" variants={fadeInUp}>
-                        <Link href="/" className="primary-btn">Get started</Link>
+                        <Link href="/getstarted" className="primary-btn">Get started</Link>
                         <Link href="/" className="bordered-btn">Download app</Link>
                     </motion.div>
                 </motion.div>

@@ -11,8 +11,8 @@ export default function Cta() {
                 <h2 className='section-title mb-[20px]'><span className='font-normal'>Ready to Experience the <br />
                 Future of Biometric Authentication With</span> <br /> Alice 1 and Alice 2?</h2>
                 <p className='xl:text-[24px] lg:text-[18px] text-[14px] text-[#5E5E5E] lg:mb-[60px] mb-[30px]'>Download the Cetirc app and register in person with the Cetirc palm ID device today to unlock a new level of security and convenience!</p>
-                <div className="flex items-center md:gap-8 gap-4">
-                    <Link href="/" className="primary-btn">Get started</Link>
+                <div className="items-center hidden md:gap-8 gap-4">
+                    <Link href="/getstarted" className="primary-btn">Get started</Link>
                     <Link href="/" className="bordered-btn">Download app</Link>
                 </div>
             </div>

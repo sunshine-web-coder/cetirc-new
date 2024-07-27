@@ -1,9 +1,5 @@
 export const sideLinks = [
   {
-    label: "Terms of Service",
-    url: "/legal/terms-of-service",
-  },
-  {
     label: "Terms of Use",
     url: "/legal/terms-of-use",
   },

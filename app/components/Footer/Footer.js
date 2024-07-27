@@ -21,7 +21,7 @@ export default function Footer() {
                         </Link>
                         <h4 className='font-medium sm:text-[24px] text-[16px] leading-[1.4] lg:mb-[40px] mb-[20px] max-w-[500px] lg:max-w-[auto]'>Start Your Journey with Secure Authentication</h4>
                         <div className="flex items-center gap-[20px]">
-                            <Link href="/" className="primary-btn !py-[10px] !px-[35px] !rounded-[8px]">Get started</Link>
+                            {/* <Link href="/getstarted" className="primary-btn hidden !py-[10px] !px-[35px] !rounded-[8px]">Get started</Link> */}
                             <Link href="/" className="bordered-btn !py-[10px] !px-[35px] !rounded-[8px]">Download app</Link>
                         </div>
                     </div>
@@ -29,9 +29,9 @@ export default function Footer() {
                         <div>
                             <h4 className='sm:text-[24px] text-[18px] font-medium sm:mb-[25px] mb-[15px]'>Product</h4>
                             <ul className='grid gap-[15px] lg:mb-[0] mb-[30px] sm:text-[20px] text-[14px]'>
-                                <li><Link href='/'>Alice 1</Link></li>
-                                <li><Link href='/'>Alice 2</Link></li>
-                                <li><Link href='/'>Get started</Link></li>
+                                <li><Link href='/getstarted/#alice-1'>Alice 1</Link></li>
+                                <li><Link href='/getstarted/#alice-2'>Alice 2</Link></li>
+                                <li><Link href='/getstarted'>Get started</Link></li>
                             </ul>
                             <ul className='flex md:gap-[23px] gap-[15px] lg:hidden'>
                                 <li><Link className='md:h-[43px] h-[30px] md:w-[43px] w-[30px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='/'><FaFacebook /></Link></li>
@@ -46,7 +46,7 @@ export default function Footer() {
                                 <li><Link href='/legal/terms-of-use'>Terms of Use</Link></li>
                                 <li><Link href='/legal/data-privacy-disclosure'>Data Privacy 
                                 Disclosure</Link></li>
-                                <li><Link href='/'>Contact Us</Link></li>
+                                <li><Link href='/#contact-us'>Contact Us</Link></li>
                                 <li><Link href='mailto:support@cetirc.com'>Get Help</Link></li>
                             </ul>
                         </div>

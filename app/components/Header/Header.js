@@ -1,13 +1,13 @@
-"use client";
-import { useState, useEffect } from "react";
-import { usePathname } from "next/navigation";
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
-import { FaTimesCircle } from "react-icons/fa";
-import HeaderLogo from "@/app/assets/images/logo.svg";
-import { IconContext } from "react-icons";
+'use client';
+import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { HiMiniBars3BottomRight } from 'react-icons/hi2';
+import { FaTimesCircle } from 'react-icons/fa';
+import HeaderLogo from '@/app/assets/images/logo.svg';
+import { IconContext } from 'react-icons';
 
 export default function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -15,11 +15,11 @@ export default function Header() {
   const currentPage = usePathname();
   // console.log(currentPage);
 
-  const handleClick = (e) => {
+  const handleClick = e => {
     setIsActive(true);
   };
 
-  const handleClose = (e) => {
+  const handleClose = e => {
     setIsActive(false);
   };
 
@@ -32,9 +32,9 @@ export default function Header() {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -42,48 +42,48 @@ export default function Header() {
     <>
       <div
         className={`${
-          isActive ? "left-0" : "-left-[100vw]"
+          isActive ? 'left-0' : '-left-[100vw]'
         } fixed top-0 h-full w-[100vw] bg-black z-[9999999999999] opacity-50 transition-[opacity] transition-all duration-500`}
         onClick={handleClose}
       ></div>
       <header
         className={`py-[30px] top-0 w-full z-[999999] fixed transition-all duration-300 ${
-          isSticky ? "bg-white shadow-lg !py-[20px]" : "bg-transparent"
+          isSticky ? 'bg-white shadow-lg !py-[20px]' : 'bg-transparent'
         }`}
       >
-        <div className='container flex items-center justify-between'>
-          <Link href='/'>
-            <Image width={148} src={HeaderLogo} alt='Header logo' />
+        <div className="container flex items-center justify-between">
+          <Link href="/">
+            <Image width={148} src={HeaderLogo} alt="Header logo" />
           </Link>
-          <ul className='ml-auto lg:flex xl:space-x-[25px] lg:space-x-[20px] text-[16px] text-black hidden header-menu'>
+          <ul className="ml-auto lg:flex xl:space-x-[25px] lg:space-x-[20px] text-[16px] text-black hidden header-menu">
             <li>
-              <Link href='/' className='menu-link'>Get started</Link>
+              <Link href="/getstarted" className="menu-link">
+                Get started
+              </Link>
             </li>
             <li>
-              <Link href='/product' className='menu-link'>Product</Link>
+              <Link href="/about" className="menu-link">
+                About us
+              </Link>
             </li>
             <li>
-              <Link href='/about' className='menu-link'>About us</Link>
-            </li>
-            <li>
-              <Link href='/map' className='menu-link'>Nearby</Link>
+              <Link href="/map" className="menu-link">
+                Nearby
+              </Link>
             </li>
           </ul>
-          <ul className='ml-auto space-x-[30px] lg:flex items-center'>
-            <li className='hidden lg:block'>
-              <Link
-                className='bordered-btn'
-                href='/'
-              >
+          <ul className="ml-auto space-x-[30px] lg:flex items-center">
+            <li className="hidden lg:block">
+              <Link className="bordered-btn" href="/">
                 Download app
               </Link>
             </li>
           </ul>
           <div
-            className='text-[30px] menu-trigger lg:hidden ml-[15px] h-[50px] w-[50px] flex items-center justify-center rounded-lg bg-white'
+            className="text-[30px] menu-trigger lg:hidden ml-[15px] h-[50px] w-[50px] flex items-center justify-center rounded-lg bg-white"
             onClick={handleClick}
           >
-            <IconContext.Provider value={{ style: { fill: "#212121" } }}>
+            <IconContext.Provider value={{ style: { fill: '#212121' } }}>
               <HiMiniBars3BottomRight />
             </IconContext.Provider>
           </div>
@@ -92,38 +92,38 @@ export default function Header() {
 
       <div
         className={`${
-          isActive ? "active" : "closed"
+          isActive ? 'active' : 'closed'
         } offcanvas w-[250px] px-[15px] py-[20px] h-full fixed z-[99999999999] bg-white top-0 lg:hidden left-[-250px] transition-all`}
       >
         <FaTimesCircle
-          className='absolute right-[15px] top-[34px] z-10 text-[24px]'
+          className="absolute right-[15px] top-[34px] z-10 text-[24px]"
           onClick={handleClose}
         ></FaTimesCircle>
-        <div className='logo mb-[30px]'>
-          <Link href='/'>
-            <Image width={140} src={HeaderLogo} alt='' />
+        <div className="logo mb-[30px]">
+          <Link href="/">
+            <Image width={140} src={HeaderLogo} alt="" />
           </Link>
         </div>
-        <ul className='space-y-[15px] text-[16px] mb-[20px] header-menu'>
-            <li>
-              <Link href='/' className='menu-link !pl-0'>Get started</Link>
-            </li>
-            <li>
-              <Link href='/product' className='menu-link !pl-0'>Product</Link>
-            </li>
-            <li>
-              <Link href='/about' className='menu-link !pl-0'>About us</Link>
-            </li>
-            <li>
-              <Link href='/map' className='menu-link !pl-0'>Nearby</Link>
-            </li>
-        </ul>
-        <ul className='mt-5'>
+        <ul className="space-y-[15px] text-[16px] mb-[20px] header-menu">
           <li>
-            <Link
-              className='bordered-btn !py-[12px] !px-[25px] !text-[16px]'
-              href='contact'
-            >
+            <Link href="/getstarted" className="menu-link !pl-0">
+              Get started
+            </Link>
+          </li>
+          <li>
+            <Link href="/about" className="menu-link !pl-0">
+              About us
+            </Link>
+          </li>
+          <li>
+            <Link href="/map" className="menu-link !pl-0">
+              Nearby
+            </Link>
+          </li>
+        </ul>
+        <ul className="mt-5">
+          <li>
+            <Link className="bordered-btn !py-[12px] !px-[25px] !text-[16px]" href="contact">
               Download app
             </Link>
           </li>

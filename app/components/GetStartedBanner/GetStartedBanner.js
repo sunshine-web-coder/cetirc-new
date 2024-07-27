@@ -5,7 +5,7 @@ import BannerLinesBg from "@/app/assets/images/banner-lines-bg.png";
 import ProductBannerThumb from "@/app/assets/images/product-banner-thumb.png";
 import ProductBannerThumbMobile from "@/app/assets/images/product-banner-thumb-mobile.png";
 
-export default function Banner() {
+export default function GetStartedBanner() {
   return (
     <>
       <section className='banner-area relative z-10 overflow-hidden md:pt-[160px] pt-[120px] md:pb-[40px] pb-0'>
