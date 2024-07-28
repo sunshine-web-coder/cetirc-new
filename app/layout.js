@@ -2,6 +2,7 @@ import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/components/Header/Header";
 import Footer from "@/app/components/Footer/Footer";
+import LanguageToggleProvider from "./components/LanguageSelect/LanguageToggleProvider";
 
 const poppins = Poppins({ 
   subsets: ["latin"],
@@ -21,12 +22,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang='en'>
       <body className={`${poppins.variable} ${inter.variable}`}>
-        <Header />
-        {children}
-        <Footer />
+        <LanguageToggleProvider>
+          <Header />
+          {children}
+          <Footer />
+        </LanguageToggleProvider>
       </body>
     </html>
   );

@@ -8,6 +8,7 @@ import { HiMiniBars3BottomRight } from 'react-icons/hi2';
 import { FaTimesCircle } from 'react-icons/fa';
 import HeaderLogo from '@/app/assets/images/logo.svg';
 import { IconContext } from 'react-icons';
+import LanguageSelector from '../LanguageSelect/LanguageSelector';
 
 export default function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -73,6 +74,7 @@ export default function Header() {
             </li>
           </ul>
           <ul className="ml-auto space-x-[30px] lg:flex items-center">
+            <LanguageSelector />
             <li className="hidden lg:block">
               <Link className="bordered-btn" href="/">
                 Download app

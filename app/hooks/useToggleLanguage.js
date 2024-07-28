@@ -1,10 +1,11 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from 'react';
 
 const useToggleLanguage = () => {
   const languages = ['en', 'de', 'fr']; // Add more languages as needed
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState(null); // Initially null to avoid flash
+  const [isLoaded, setIsLoaded] = useState(false); // Track if the language is loaded
 
   const toggleLanguage = () => {
     setLanguage(prevLanguage => {
@@ -14,18 +15,22 @@ const useToggleLanguage = () => {
     });
   };
 
+  const setLanguageAndStore = (lang) => {
+    setLanguage(lang);
+    localStorage.setItem('language', lang);
+  };
+
   useEffect(() => {
     const savedLanguage = localStorage.getItem('language');
     if (savedLanguage) {
       setLanguage(savedLanguage);
+    } else {
+      setLanguage('en'); // Default language
     }
+    setIsLoaded(true); // Set loaded to true after setting the language
   }, []);
 
-  useEffect(() => {
-    localStorage.setItem('language', language);
-  }, [language]);
-
-  return { language, toggleLanguage };
+  return { language, setLanguage: setLanguageAndStore, toggleLanguage, isLoaded };
 };
 
 export default useToggleLanguage;
