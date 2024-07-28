@@ -74,7 +74,6 @@ export default function Header() {
             </li>
           </ul>
           <ul className="ml-auto space-x-[30px] lg:flex items-center">
-            <LanguageSelector />
             <li className="hidden lg:block">
               <Link className="bordered-btn" href="/">
                 Download app
