@@ -54,9 +54,9 @@ export default function Footer() {
                             <Image className='absolute max-w-none -z-10 left-1/2 -top-[80px] translate-x-[-40%] hidden lg:block' src={Footershape} alt='Footer Shape' />
                             <h4 className='sm:text-[24px] text-[18px] font-medium sm:mb-[25px] mb-[15px] text-center'>Follow us</h4>
                             <ul className='flex md:gap-[23px] gap-[15px]'>
-                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='/'><FaTwitter /></Link></li>
-                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='/'><FaLinkedin /></Link></li>
-                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='/'><RiInstagramFill /></Link></li>
+                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://x.com/cetirc_?s=21' target='_blank'><FaTwitter /></Link></li>
+                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='/' target='_blank'><FaLinkedin /></Link></li>
+                                <li><Link className='h-[43px] w-[43px] border border-[#B3B3B3] rounded-full flex items-center justify-center transition-all duration-300 hover:bg-black hover:text-white hover:border-black' href='https://www.instagram.com/cetirc?igsh=d2Z0ejl4Z2ZvajNx&utm_source=qr' target='_blank'><RiInstagramFill /></Link></li>
                             </ul>
                         </div>
                     </div>
