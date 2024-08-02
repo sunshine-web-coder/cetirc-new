@@ -124,7 +124,7 @@ export default function Header() {
         </ul>
         <ul className="mt-5">
           <li>
-            <Link className="bordered-btn !py-[12px] !px-[25px] !text-[16px]" href="contact" onClick={handleClose}>
+            <Link className="bordered-btn !py-[12px] !px-[25px] !text-[16px]" href="" onClick={handleClose}>
               Download app
             </Link>
           </li>
