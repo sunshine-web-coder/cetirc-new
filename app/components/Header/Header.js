@@ -107,24 +107,24 @@ export default function Header() {
         </div>
         <ul className="space-y-[15px] text-[16px] mb-[20px] header-menu">
           <li>
-            <Link href="/getstarted" className="menu-link !pl-0">
+            <Link href="/getstarted" className="menu-link !pl-0" onClick={handleClose}>
               Get started
             </Link>
           </li>
           <li>
-            <Link href="/about" className="menu-link !pl-0">
+            <Link href="/about" className="menu-link !pl-0" onClick={handleClose}>
               About us
             </Link>
           </li>
           <li>
-            <Link href="/map" className="menu-link !pl-0">
+            <Link href="/map" className="menu-link !pl-0" onClick={handleClose}>
               Nearby
             </Link>
           </li>
         </ul>
         <ul className="mt-5">
           <li>
-            <Link className="bordered-btn !py-[12px] !px-[25px] !text-[16px]" href="contact">
+            <Link className="bordered-btn !py-[12px] !px-[25px] !text-[16px]" href="contact" onClick={handleClose}>
               Download app
             </Link>
           </li>
