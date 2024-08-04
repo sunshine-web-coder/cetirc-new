@@ -45,7 +45,7 @@ export default function Banner() {
               <p className="text-[#070707] max-w-[525px] md:mb-[30px] mb-[25px]">Scan once, and you can authenticate, prove your identity, gain access control, and shop forever. It’s FREE, QUICK, and EASY.</p>
               <div className="flex xl:gap-8 gap-4">
                 <Link href="/getstarted" className="primary-btn">Get started</Link>
-                <Link href="/" className="bordered-btn">Download app</Link>
+                <Link href="/Cetric.apk" className="bordered-btn">Download app</Link>
               </div>
             </motion.div>
             <motion.div className="relative z-50 xl:-ml-[100px] md:-mr-[80px]" variants={fadeInDown}>

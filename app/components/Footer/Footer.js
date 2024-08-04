@@ -22,7 +22,7 @@ export default function Footer() {
                         <h4 className='font-medium sm:text-[24px] text-[16px] leading-[1.4] lg:mb-[40px] mb-[20px] max-w-[500px] lg:max-w-[auto]'>Start Your Journey with Secure Authentication</h4>
                         <div className="flex items-center gap-[20px]">
                             {/* <Link href="/getstarted" className="primary-btn hidden !py-[10px] !px-[35px] !rounded-[8px]">Get started</Link> */}
-                            <Link href="/" className="bordered-btn !py-[10px] !px-[35px] !rounded-[8px]">Download app</Link>
+                            <Link href="/Cetric.apk" className="bordered-btn !py-[10px] !px-[35px] !rounded-[8px]">Download app</Link>
                         </div>
                     </div>
                     <div className='grid lg:grid-cols-3 grid-cols-2 xl:gap-[100px] gap-[30px]'>
