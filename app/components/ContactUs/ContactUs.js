@@ -87,7 +87,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <section ref={ref} className="md:bg-[#F6FCEA] md:py-[100px] mt-[80px]">
+      <section ref={ref} className="bg-[#CAF7CE] py-[50px] md:py-[100px] mt-[80px]">
         <div className="container">
           <motion.div
             className="grid md:grid-cols-2 xl:gap-[180px] lg:gap-[100px] gap-[50px]"

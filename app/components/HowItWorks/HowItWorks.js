@@ -61,7 +61,7 @@ export default function HowItWorks() {
                 </motion.div>
                 <motion.div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4" variants={stagger} initial="hidden" animate={controls}>
                     {/* single box  */}
-                    <motion.div className="bg-[#F6FCEA] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
+                    <motion.div className="bg-[#CAF7CE] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
                         <Image className="xl:mb-[10px] mb-[5px] mx-auto md:max-w-[105px] max-w-[60px]" src={WorksIcon1} alt="Works Icon1"/>
                         <h3 className='xl:text-[30px] sm:text-[24px] text-[20px] font-normal mb-[15px] leading-[1.3]'>
                           Download the Alice 1 App for Free:
@@ -71,7 +71,7 @@ export default function HowItWorks() {
                         </p>
                     </motion.div>
                     {/* single box  */}
-                    <motion.div className="bg-[#F6FCEA] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
+                    <motion.div className="bg-[#CAF7CE] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
                         <Image className="xl:mb-[10px] mb-[5px] mx-auto md:max-w-[105px] max-w-[60px]" src={WorksIcon2} alt="Works Icon2"/>
                         <h3 className='xl:text-[30px] sm:text-[24px] text-[20px] font-normal mb-[15px]'>
                           Registration and Biometrics
@@ -81,7 +81,7 @@ export default function HowItWorks() {
                         </p>
                     </motion.div>
                     {/* single box  */}
-                    <motion.div className="bg-[#F6FCEA] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
+                    <motion.div className="bg-[#CAF7CE] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
                         <Image className="xl:mb-[10px] mb-[5px] mx-auto md:max-w-[105px] max-w-[60px]" src={WorksIcon3} alt="Works Icon3"/>
                         <h3 className='xl:text-[30px] sm:text-[24px] text-[20px] font-normal mb-[15px]'>
                           Activate Your Profile With the Alice 1
