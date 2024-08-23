@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="container">
                 <div className="grid lg:grid-cols-[5fr_7fr] xl:gap-x-[100px] gap-x-[30px] md:pt-[110px] pt-[60px] pb-[45px]">
                     <div className='lg:mb-[0] mb-[40px]'>
-                        <Link className='mb-[10px] border-t w-full border-[#8D8D8D] inline-block' href='/'>
+                        <Link className='mb-[10px] block md:hidden border-t w-full border-[#8D8D8D]' href='/'>
                             {/* <Image width={148} src={FooterLogo} alt='Header logo' /> */}
                         </Link>
                         <h4 className='font-medium sm:text-[24px] text-[16px] leading-[1.4] lg:mb-[40px] mb-[20px] max-w-[500px] lg:max-w-[auto]'>Start Your Journey with Secure Authentication</h4>
