@@ -50,7 +50,7 @@ export default function Banner() {
             </motion.div>
             <motion.div className="relative z-50 xl:-ml-[100px] md:-mr-[80px]" variants={fadeInDown}>
                 <Image className="md:block hidden" src={BannerThumb} alt="Banner Thumb"/>
-                <Image className="md:hidden block w-full" src={BannerThumbMobile} alt="Banner Thumb Mobile"/>
+                <Image className="md:hidden block w-full " src={BannerThumbMobile} alt="Banner Thumb Mobile"/>
                 <Image className="absolute left-[12%] bottom-[16%] -z-10 hidden lg:block" src={BannerEggShame} alt="Banner Egg Shape"/>
             </motion.div>
           </motion.div>
