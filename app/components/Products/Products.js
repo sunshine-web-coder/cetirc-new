@@ -58,7 +58,7 @@ export default function Products() {
                   <Image className="absolute lg:-left-[30px] -left-[5px] lg:-top-[40px] md:-top-[10px] -top-[15px] -z-10 lg:max-w-[50%] md:max-w-[25%] max-w-[60px]" src={ProductEggShape} alt="Egg Shape"/>
                   Alice 1
                 </h1>
-                <p className='text-[#525050] md:text-[20px] text-[14px]'>At the heart of Cetirc is Alice 1. Designed to enable you to register, scan your palm, make payments online, and gain lifetime access to all of our products and offerings. Download the Alice 1 app to begin.</p>
+                <p className='text-[#525050] md:text-[20px] text-[14px]'>At the heart of Cetirc is Alice 1. Designed to enable you to register, scan your palm, make payments online, and gain lifetime access to all of our products and offerings. Download the Cetirc app to begin.</p>
               </motion.div>
               {/* single box  */}
               <motion.div className='bg-white md:rounded-[37px] rounded-[20px] lg:pt-[50px] md:pt-[30px] pt-[20px] lg:px-[40px] md:px-[25px] px-[20px] lg:pb-[50px] md:pb-[30px] pb-[20px] shadow-[0_30px_60px_rgba(0,0,0,0.08)] lg:translate-y-[55px]' variants={fadeInUp}>

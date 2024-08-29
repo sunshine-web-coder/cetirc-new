@@ -64,7 +64,7 @@ export default function HowItWorks() {
                     <motion.div className="bg-[#CAF7CE] md:py-[45px] py-[25px] md:px-[30px] px-[20px] xl:rounded-[43px] rounded-[20px] text-center" variants={fadeInUp}>
                         <Image className="xl:mb-[10px] mb-[5px] mx-auto md:max-w-[105px] max-w-[60px]" src={WorksIcon1} alt="Works Icon1"/>
                         <h3 className='xl:text-[30px] sm:text-[24px] text-[20px] font-normal mb-[15px] leading-[1.3]'>
-                          Download the Alice 1 App for Free:
+                          Download the Cetirc App for Free:
                         </h3>
                         <p className='text-[#121212] sm:text-[16px] text-[14px]'>
                           Download and Register with Alice 1 to create an online profile and ID across all Cetirc palm vein and biometric products and partners. This includes Alice 2.

@@ -42,7 +42,7 @@ export default function Banner() {
                 <span className="xl:text-[48px] lg:text-[36px] text-[26px] font-medium">Experience Cutting-Edge</span> <br className="" />
                 Palm Vein <span className="font-normal">Identity Service</span>
               </h1>
-              <p className="text-[#070707] max-w-[525px] md:mb-[30px] mb-[25px]">Scan once, and you can authenticate, prove your identity, gain access control, and shop forever. It’s FREE, QUICK, and EASY.</p>
+              <p className="text-[#070707] max-w-[525px] md:mb-[30px] mb-[25px]">Scan once, and you can authenticate, prove your identity, gain access, and shop forever. It’s FREE, QUICK, and EASY.</p>
               <div className="flex xl:gap-8 gap-4">
                 <Link href="/getstarted" className="primary-btn">Get started</Link>
                 <Link href="/Cetric.apk" className="bordered-btn">Download app</Link>
