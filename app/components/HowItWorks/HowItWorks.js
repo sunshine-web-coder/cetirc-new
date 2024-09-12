@@ -56,7 +56,7 @@ export default function HowItWorks() {
                     </motion.p>
                     <motion.div className="flex items-center xl:gap-8 gap-4" variants={fadeInUp}>
                         <Link href="/getstarted" className="primary-btn">Get started</Link>
-                        <Link href="/Cetric.apk" className="bordered-btn">Download app</Link>
+                        <Link href="/Cetirc.apk" className="bordered-btn">Download app</Link>
                     </motion.div>
                 </motion.div>
                 <motion.div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4" variants={stagger} initial="hidden" animate={controls}>
