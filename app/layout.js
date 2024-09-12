@@ -18,7 +18,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Cetirc | Experience Cutting-Edge Palm Vein Identity Service",
-  description: "Experience Cutting-Edge Palm Vein Identity Service",
+  description: "Cetirc - Experience Cutting-Edge Palm Vein Identity Service",
 };
 
 export default function RootLayout({ children }) {
