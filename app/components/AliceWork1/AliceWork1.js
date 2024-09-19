@@ -17,7 +17,7 @@ export default function AliceWork1() {
             </p>
           </div>
           <div className="grid lg:grid-cols-[4fr_8fr] lg:gap-x-[40px] gap-x-[30px]">
-            <div className="w-full sm:w-[450px] mb-[30px] flex items-center justify-center bg-[#333333] rounded-[15px] overflow-hidden">
+            <div className="w-full sm:w-[450px] mb-[30px] flex items-center justify-center bg-[#ffffff] rounded-[15px] overflow-hidden">
               <Image className="w-full h-full" src={AliceWorkThumb1} alt="AliceWorkThumb1" />
             </div>
             <div className="relative">
