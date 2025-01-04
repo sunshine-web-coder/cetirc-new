@@ -83,6 +83,32 @@ export default function PrivacyPolicy() {
             <p className="mb-1 mt-2">Business users</p>
             <span>For business users, the address you enter during registration is stored and used to allow other Customers to locate your store.</span>
           </div>
+          <div className="mt-6">
+            <span>1.4. Collection and Use of Location Data</span>
+            <p>Our app collects your location data to enhance your experience and provide you with personalized services. Specifically, we use your location information to:</p>
+            <ul className="list-disc ml-6">
+              <li>
+                <b>Display Closest Stores:</b> We collect your precise location data to identify and show you the closest stores where our products are available, ensuring convenience and a better user experience.
+              </li>
+              <p className="mb-1 mt-1">
+                <b>How Location Data is Collected:</b>
+              </p>
+              <li>We collect this data through your device’s GPS or other location services.</li>
+
+              <p className="mb-1">
+                <b>How Location Data is Used</b>
+              </p>
+              <li>Location data is used exclusively to show nearby stores and improve the functionality of the app.</li>
+              <li>The data is not shared with any third parties for advertising or marketing purposes.</li>
+              <p className="mb-1">
+                <b>User Control</b>
+              </p>
+              <li>You can manage or revoke location permissions at any time through your device settings.</li>
+              <li>If you choose to disable location services, you may still use the app, but certain features, such as finding nearby stores, may not function properly.</li>
+            </ul>
+            <p className="mb-1 mt-2">Business users</p>
+            <span>For business users, the address you enter during registration is stored and used to allow other Customers to locate your store.</span>
+          </div>
         </div>
 
         <div>
